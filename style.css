@@ -1111,6 +1111,7 @@ body {
     padding: 17vh 3vw 0 3vw;
     margin-bottom: 0vh;
     margin-top: 0vh;
+    overflow-y: auto;
   }
 
   #page3 h1 {
@@ -1593,22 +1594,5 @@ body {
     font-weight: 500;
     margin-bottom: 4vw;
     font-size: 4vw;
-  }
-}
-
-
-/* Add this CSS to your stylesheet */
-
-@media only screen and (max-width: 600px) {
-  /* Disable scroll behavior for mobile devices */
-  [data-scroll-container] {
-    overflow: visible;
-    height: auto;
-  }
-
-  [data-scroll] {
-    scroll-snap-type: none;
-    overflow-y: auto;
-    height: auto;
   }
 }

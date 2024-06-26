@@ -36,7 +36,7 @@ body {
 
 body {
   overflow-x: hidden;
-  scroll-behavior: auto;
+  overflow-y: auto;
 }
 
 
@@ -1111,7 +1111,6 @@ body {
     padding: 17vh 3vw 0 3vw;
     margin-bottom: 0vh;
     margin-top: 0vh;
-    overflow-y: auto;
   }
 
   #page3 h1 {

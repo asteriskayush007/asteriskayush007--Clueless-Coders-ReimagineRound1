@@ -1,9 +1,3 @@
-// Add touch event listener
-document.addEventListener('touchstart', function(event) {
-  // Unlock scrolling
-  document.body.style.overflowY = 'auto';
-});
-
 function locomotiveAnimation() {
   gsap.registerPlugin(ScrollTrigger);
 

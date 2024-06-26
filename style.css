@@ -1595,3 +1595,20 @@ body {
     font-size: 4vw;
   }
 }
+
+
+/* Add this CSS to your stylesheet */
+
+@media only screen and (max-width: 600px) {
+  /* Disable scroll behavior for mobile devices */
+  [data-scroll-container] {
+    overflow: visible;
+    height: auto;
+  }
+
+  [data-scroll] {
+    scroll-snap-type: none;
+    overflow-y: auto;
+    height: auto;
+  }
+}
